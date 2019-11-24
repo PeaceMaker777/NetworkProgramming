@@ -1,0 +1,105 @@
+body {
+	background: rgba(129, 139, 181, 0.5);
+}
+
+.menu a {
+	color: rgb(0, 13, 64);
+	font-size: 20px;
+	font-style: italic;
+	transition: color 0.5s;
+}
+
+.menu a:hover{
+	color: #10797d; 
+}
+
+.menu {
+	list-style-type: none;
+}
+
+.base-header{
+	color: black;
+	font-size: 18px;
+	font-weight: 400;
+}
+
+.shot-information{
+	color: rgb(0, 24, 120);
+	font-size: 14px;
+	font-style: italic;
+	line-height: 16px;
+}
+
+.product-information{
+	color: #484343;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	text-align: left;
+}
+
+.list li{
+	color: #10797d;
+	font-size: 14px;
+	font-style: italic;	
+}
+
+.list{
+	list-style-image: url("loader-image (1).png");
+}
+
+.form-text input:not([type=submit]){
+	width: 400px;
+	height: 20px;
+	color: rgb(0, 24, 120);
+	font-size: 16px;
+	text-transform: capitalize;
+	transition: color, box-shadow  1s;
+}
+
+.form-text input[type=email]:focus{
+	color: #107d47;
+	box-shadow: 0 0 10px #107d47;
+}
+
+.body-img-border img{
+	border: 2px solid #10797d;
+	transition: border-color 0.5s;
+}
+
+.body-img-border img:hover{
+	border-color: transparent;	
+}
+
+.logo-img {
+	height: 40px;
+}
+
+.header {
+	border-bottom: 2px dotted #10797d;
+}
+
+.footer {
+	border-top: 2px dotted #10797d;
+	padding-top: 10px;
+}
+
+.table{
+	text-align: center;
+	border: 2px solid #10797d;	
+}
+
+.table td{
+	border: 2px solid #10797d;
+}
+
+.table-high{
+	height: 200px
+}
+
+.body-first-word p:first-letter{
+	font-family: Arial;
+	font-size: 25px;
+	
+}
+
