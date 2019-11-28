@@ -1,0 +1,244 @@
+@import "../fonts/Montserrat/Montserrat.css";
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.clear-fix{
+    clear: both;
+}
+
+.work-area {
+	width: 1110px;
+    margin: 0 auto;
+}
+
+.first-screen {
+    background: url("../img/photo-1522071820081-009f0129c71c.jpg");
+    height: 900px;
+    margin-bottom: 110px;
+}
+
+.horizontal-line {
+    height: 1px;
+    background: #A1A1A1;
+}
+
+.menu {
+    float: right;
+    padding: 0;
+    list-style-type: none;
+    margin: 0;
+}
+
+.menu__item{
+    display: inline-block;
+    padding: 40px 20px;
+}
+
+.menu__item--selected{
+    border-bottom: 2px solid #FFFFFF;
+}
+
+.menu__link{
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration: none;
+
+    color: #FFFFFF;
+}
+
+.information{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 220px;
+}
+
+.information__label{
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.information__header{
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 64px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+
+    color: #FFFFFF;
+}
+
+.button{
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+
+    padding: 13px 36px 15px;
+
+    color: #FFFFFF;
+
+    background: #4985FF;
+    box-shadow: 0 0 10px rgba(111, 111, 111, 0.25);
+    border-radius: 30px;
+    border: none;
+}
+
+.subscribe-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 85px;
+    margin-bottom: 85px;
+}
+
+.subscribe-form__label{
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+
+    margin-bottom: 17px;
+    margin-top: 0px;
+
+    color: #000000;
+}
+
+.subscribe-form__information{
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+
+    margin-bottom: 30px;
+
+    color: #999999;
+}
+
+.subscribe-form__information--min{
+    font-size: 13px;
+    line-height: 21px;
+
+    margin-bottom: 0px;
+}
+
+.subscribe-form__input{
+    padding: 15px 33px 13px;
+
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 18px;
+
+    color: #999999;
+
+    background: #FFFFFF;
+    /* #F2F2F2 */
+
+    border: 1px solid #F2F2F2;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px rgba(111, 111, 111, 0.25);
+    border-bottom-left-radius: 30px;
+    border-top-left-radius:30px;
+
+    border-right: none;
+
+}
+
+.subscribe-form__button{
+    border-bottom-left-radius: 0;
+    border-top-left-radius:0 ;
+}
+
+.subscribe-form__input-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+.footer-style {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 70px;
+    margin-bottom: 70px;
+}
+
+.footer-style__contacts{
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.footer-style__contacts__label{
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    margin: 0 0 0;
+
+    color: #000000;
+}
+
+.footer-style__contacts__item{
+    padding: 30px 0 0;
+
+}
+
+.footer-style__contacts__link{
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+
+    /* grey */
+
+    color: #999999;
+}
+
+.footer-style__contacts__img{
+    height: 15px;
+    margin-right: 15px;
+}
+
+.mini-label{
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 21px;
+    text-align: center;
+    margin: 30px 0;
+
+    /* grey */
+
+    color: #999999;
+}
+
