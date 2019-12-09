@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+
+#board {
+    width: 900px;
+    height: 900px;
+    margin: 100px auto;
+}
+
+.row{
+    display: flex;
+}
+
+.cell{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+
+.cell--white{
+    background: white;
+}
+
+.cell--black{
+    background: black;
+}
+
+.number{
+    padding-right: 5px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.word{
+    text-align: center;
+    padding-top: 5px;
+}
